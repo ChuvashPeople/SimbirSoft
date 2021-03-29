@@ -8,7 +8,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 
-namespace TestProjectSimbirProject
+namespace SimbirSoft
 {
     class Download_Split
     {
