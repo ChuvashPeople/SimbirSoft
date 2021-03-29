@@ -5,7 +5,7 @@ using System.IO;
 using System.Collections.Generic;
 
 
-namespace TestProjectSimbirProject
+namespace SimbirSoft
 {
     class Program
     {
