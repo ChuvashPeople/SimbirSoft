@@ -14,7 +14,7 @@ namespace SimbirSoft
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string UnicWord { get; set; }
+        public string UniqueWord { get; set; }
         public int Count { get; set; }
     }
 }

@@ -17,13 +17,13 @@ namespace SimbirSoft
                          group i by i into g
                          select new Word
                          {
-                             UnicWord = g.Key,
+                             UniqueWord = g.Key,
                              Count = g.Count()
                          };
 
             foreach (var item in result)
             {
-                Console.WriteLine($"{item.UnicWord} - {item.Count} ");
+                Console.WriteLine($"{item.UniqueWord} - {item.Count} ");
                 projDBContext.Words.Add(item);
                 projDBContext.SaveChanges();
             }
